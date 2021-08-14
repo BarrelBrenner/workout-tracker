@@ -18,9 +18,9 @@ You would need to connect them together buy starting with the following --
 4. Inside KEY box type in MongoDB_URI
 5. Inside VALUE box type in mongodb+srv://<username>:<password>@<clusterName>.puqzm.mongodb.net/<databaseName>?retryWrites=true&w=majority
 
-username = username of database (NOT MONGODB ACCOUNT INFO)
-password = password of database (NOT MONGODB ACCOUNT INFO)
-clusterName = name of cluster (i.e. Cluster0)
+username = username of database (NOT MONGODB ACCOUNT INFO),
+password = password of database (NOT MONGODB ACCOUNT INFO),
+clusterName = name of cluster (i.e. Cluster0),
 databaseName = name of database you created in MongoDB Atlas
 
 NOTE -- where it says puqzm it'll be different for you once you create it so no need to worry.
