@@ -9,9 +9,9 @@ For this assignment you will need to install npm, to install it type in the foll
 To install these dependencies I would type the following -- "npm i (name of dependency)".
 Once that's finished you can begin checklist of functionality of app by typing the following --
 
-"npm run seed"
-"npm run watch" which should lead to start, if not then type
-"npm run start"
+    "npm run seed"
+    "npm run watch" which should lead into start, if not then type
+    "npm run start"
 
 This is deployed on Heroku while connected to MongoDB Atlas Database.
 You would need to connect them together buy starting with the following --
@@ -20,12 +20,12 @@ You would need to connect them together buy starting with the following --
 2. Click on Settings
 3. Scroll down to Config Vars
 4. Inside KEY box type in MongoDB_URI
-5. Inside VALUE box type in mongodb+srv://<username>:<password>@<clusterName>.puqzm.mongodb.net/<databaseName>?retryWrites=true&w=majority --
+5. Inside VALUE box type in mongodb+srv://<username>:<password>@<clusterName>.puqzm.mongodb.net/<databaseName>?retryWrites=true&w=majority
 
-"username = username of database (NOT MONGODB ACCOUNT INFO)"
-"password = password of database (NOT MONGODB ACCOUNT INFO)"
-"clusterName = name of cluster (i.e. Cluster0)"
-"databaseName = name of database you created in MongoDB Atlas"
+    "username = username of database (NOT MONGODB ACCOUNT INFO)"
+    "password = password of database (NOT MONGODB ACCOUNT INFO)"
+    "clusterName = name of cluster (i.e. Cluster0)"
+    "databaseName = name of database you created in MongoDB Atlas" 
 
 NOTE -- where it says puqzm it'll be different for you once you create it so no need to worry.
 
