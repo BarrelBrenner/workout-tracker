@@ -45,7 +45,7 @@ function formatDate(date) {
 }
 
 function renderWorkoutSummary(summary) {
-  const container = document.querySelector(".workout-records");
+  const container = document.querySelector(".workout-stats");
 
   const workoutKeyMap = {
     date: "Date",
@@ -72,7 +72,7 @@ function renderWorkoutSummary(summary) {
 }
 
 function renderNoWorkoutText() {
-  const container = document.querySelector(".workout-records");
+  const container = document.querySelector(".workout-stats");
   const p = document.createElement("p");
   const strong = document.createElement("strong");
   strong.textContent = "You have not created a workout yet!"
