@@ -3,10 +3,10 @@ const path = require("path");
 let router = express.Router();
 
 router.get(`/`, (req, res) => {
-  res.sendFile(path.join(__dirname, `../public/mainpage.html`));
+  res.sendFile(path.join(__dirname, `../public/main.html`));
 });
 
-router.get(`/health?`, (req, res) => {
+router.get(`/exercise?`, (req, res) => {
   res.sendFile(path.join(__dirname, `../public/health.html`));
 });
 
