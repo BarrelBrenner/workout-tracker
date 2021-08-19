@@ -10,7 +10,7 @@ router.get(`/health?`, (req, res) => {
   res.sendFile(path.join(__dirname, `../public/health.html`));
 });
 
-router.get(`/records`, (req, res) => {
+router.get(`/stats`, (req, res) => {
   res.sendFile(path.join(__dirname, `../public/stats.html`));
 });
 
