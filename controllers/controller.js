@@ -11,7 +11,7 @@ router.get(`/health?`, (req, res) => {
 });
 
 router.get(`/records`, (req, res) => {
-  res.sendFile(path.join(__dirname, `../public/records.html`));
+  res.sendFile(path.join(__dirname, `../public/stats.html`));
 });
 
 module.exports = router;
